@@ -1,0 +1,9 @@
+Start
+Read Three Number A,B and C
+if (A > B && A > C)
+Print “A is Largest Number”
+Else if (B > A && B >C)
+Print “B is Largest Number”
+Else
+Print “C is Largest Number”
+Stop
