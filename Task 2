@@ -1,0 +1,16 @@
+BEGIN
+  FUNCTION factorial(n)
+    IF n == 0 THEN
+      RETURN 1
+    ENDIF
+    SET result = 1
+    FOR i FROM 1 TO n DO
+      result = result * i
+    ENDFOR
+    RETURN result
+  END FUNCTION
+
+  // Main program
+  READ number
+  PRINT "Factorial of", number, "is", factorial(number)
+END
